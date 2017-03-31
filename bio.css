@@ -1,0 +1,32 @@
+section img{
+  height: 330px;
+  width: 330px;
+  margin-left: 38%;
+  margin-top: 2%;
+  border-radius: 50%;
+  transition-duration: 2s;
+
+}
+section img:hover{
+  transform: scale(1.15);
+}
+.some {
+  margin-top: 2%;
+  text-align: center;
+  background-color: #ebebe0;
+  padding: 3%;
+}
+.some h1{
+    text-align: center;
+}
+.some p{
+  margin-top: 2%;
+}
+@media only screen and (max-width: 600px){
+  section img{
+    transition-duration: 2s;
+  }
+  section img:hover{
+    transform: rotate(360deg);
+  }
+}

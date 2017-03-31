@@ -1,0 +1,52 @@
+
+legend{
+  text-align: center;
+  color: black;
+  font-size: 1.3425em;
+}
+form{
+  margin-top: 3%;
+  background-color: grey;
+  text-align: center;
+}
+input[type=text]{
+  border: none;
+  border-bottom: 3px solid black;
+  width: 60%;
+  font-size: 1.5em;
+}
+input[type=e-mail]{
+  border: none;
+  border-bottom: 3px solid black;
+  width: 60%;
+  font-size: 1.5em;
+}
+textarea{
+  border: none;
+  border-bottom: 3px solid black;
+  width: 60%;
+  font-size: 1.5em;
+}
+input[type=submit]{
+  background-color: brown;
+  border-radius: 8px 8px 8px 8px;
+  width: 12%;
+  margin-left: 48.25%;
+}
+input[type=text]:hover{
+  border-bottom-color: blue;
+}
+input[type=e-mail]:hover{
+  border-bottom-color: blue;
+}
+textarea:hover{
+    border-bottom-color: blue;
+}
+input[type=submit]:hover{
+    background-color: blue;
+}
+@media only screen and (max-width: 600px){
+  input[type=submit]{width: 14%;
+
+  }
+}

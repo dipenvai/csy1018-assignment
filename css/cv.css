@@ -4,7 +4,7 @@ section{
 }
 section  img{
   cursor: pointer;
-  height: 300px;
+  height: 150px;
   padding: 4%;
   border-radius: 50% ;
   transition-duration: 1s;
@@ -119,28 +119,4 @@ article{
 .pawa p{
   padding: 2%;
   color: maroon;
-}
-@media only screen and (max-width: 600px){
-  section{
-    display: flex;
-    flex-direction: column;
-  }
-  .my{
-    width: 100%;
-  }
-  .your{
-    width: 100%;
-  }
-  .education{
-    width: 100%;
-  }
-  .coursework{
-      width: 100%;
-  }
-  .hawa{
-      width: 100%;
-  }
-  .pawa{
-      width: 100%;
-  }
 }
