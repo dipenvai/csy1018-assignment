@@ -1,23 +1,24 @@
-section{
+section{/** this css is for the whole section   **/
   display: flex;
   flex-direction: row;
+  background-color: #cccccc;
 }
-section  img{
+section  img{/**this css gives height,padding, radius,time-duration to  the image in the section**/
   cursor: pointer;
   height: 300px;
   padding: 4%;
   border-radius: 50% ;
   transition-duration: 1s;
 }
-section img:hover{
+section img:hover{/**this is css for hover effect that makes the image to rotate in 360degrees**/
   transform: rotate(360deg);
 
 }
-.my{
+.my{/**this css gives width and padding to content that are in div "my"**/
   width: 37%;
   padding: 3%;
 }
-article{
+article{/**this is the css that gives styles like background-color,text-align,text-weight to the content that are written in tag "article" **/
   background-color: orange;
   font-weight: bold;
   text-align: center;
@@ -33,7 +34,7 @@ article{
 }
 .skills{
   width: 90%;
-  background-color: red;
+  background-color: white;
   border-radius: 7px;
 }
 .many{
@@ -41,7 +42,7 @@ article{
 }
 .css{
   width: 40%;
-  background-color: cyan;
+  background-color: white;
   border-radius: 7px;
 }
 .tiny{
@@ -49,46 +50,22 @@ article{
 }
 .excel{
   width: 60%;
-  background-color: maroon;
+  background-color: white;
   border-radius: 7px;
 }
-.your{
-  width: 55%;
-  padding: 5%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.rightside{
+  position: relative;
+  top: 80px;
+  left: 80px;
+  height: 600px;
+  width: 650px;
+  background-color:  #cccccc;
 }
-.education{
-  width: 47%;
-  margin-top: 2%;
-  background-color: grey;
-}
-.education h2{
-  background-color: black;
+.rightside h1{
   text-align: center;
-  color: white;
-  font-size: 2em;
-}
-.education p{
-  padding: 2%;
-  color: maroon;
-}
-.coursework{
-  width: 47%;
-  margin-top: 2%;
-  background-color: grey;
-}
-.coursework h2{
-  background-color: black;
-  text-align: center;
-  color: white;
-  font-size: 2em;
-}
-.coursework p{
-  padding: 2%;
-  color: maroon;
+  color: black;
+  font-size: 3em;
+  padding: 3%;
 }
 .hawa{
   width: 47%;
@@ -120,7 +97,7 @@ article{
   padding: 2%;
   color: maroon;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px){/**this is css for making the CV page responsive which gives width to divs and display and flex-direction properties to the section**/
   section{
     display: flex;
     flex-direction: column;

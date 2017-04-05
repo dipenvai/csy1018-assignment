@@ -1,10 +1,10 @@
-*{
+*{/**this is css for the whole body**/
   margin: 0;
   padding: 0;
   font-family: cursive;
 }
 .h {
-  background-image: url("prem1.jpg");
+  background-image: url("images/prem1.jpg");/*this css gives the background to div h, it gives the posiition to the  background image and height to it. */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@
 
 }
 
-header h1{
+header h1{/**this is the css which gives text-align,color,font-family,font-size and padding for the heading,h1 in the header part**/
   text-align: left;
   color: black;
   font-family: cursive;
@@ -24,7 +24,7 @@ header h1{
 
 
 }
-header p{
+header p{/**this is the css that gives same style to the small paragraph in the header part**/
   text-align: left;
   color: black;
   font-size: 3em;
@@ -33,78 +33,81 @@ header p{
   font-family: cursive;
 
 }
-.navbar{
+.navbar{/**this is the css for the whole  navigation bar**/
   background-color: black;
 }
 
-.navbar ul {
+.navbar ul {/**this css gives list-style,flex properties nad display to the ul part of navigation bar **/
 
   list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.navbar ul li  {
+.navbar ul li  {/**this gives style to the li part of navigation bar**/
   padding: 3%;
   transition: border-bottom 2s;
 }
-.navbar ul li a{
+.navbar ul li a{/**this gives styles like text-decoration and color to the anchor part of the navigation bar**/
   text-decoration: none;
   color: cyan;
 }
-.navbar ul li:hover{
+.navbar ul li:hover{/**hover effect is given by this css**/
   background-color: blue;
   border-bottom: 5px solid yellow;
 }
 
-.ok{
-  background-image: url("images/raman.jpg");
+.ok{/**this css is for the parallex effect which gives styles like background-size,attachment, height to the background- image**/
+  background-image: url("images/nami.jpg");
   height: 300px;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: no-repeat;
 }
-.joker{
+.joker{/**this is the css that gives background-color,font-size,display-properties and flex properties to div "joker"**/
 /*  height: 400px;*/
-  background-color: grey;
+  background-color:  #cccccc;
   font-size: 1em;
   display: flex;
   flex-direction: row-reverse;
 }
-.intro{
+.intro{/**this css gives padding and width to text that are written in the intro part**/
   padding: 3%;
 
   width: 57%;
 }
-.intro h2{
+.intro h2{/**this css gives styles like text-align,text-shadow,color padding and font-size to the heading,h2  and text written in div "intro"**/
  text-align: center;
- text-shadow: 2px 2px crimson;
   color: black;
   padding: 3%;
   font-size: 3em;
 }
-.purna{
+.purna{/**this css gives padding and width to the content in div "purna"**/
   width: 37%;
   padding: 3%;
 }
-footer{
+.purna img{/**this is css which gives height and width to the image in div "purna"**/
+  height:400px;
+  width:400px;
+}
+footer{/**this css gives style to the footer part**/
   display: flex;
   justify-content: center;
   background-color: white;
 }
-footer img{
+footer img{/**this css gives height and width to the image in footer part**/
   height: 70px;
   width: 70px;
 }
-footer img:hover{
+footer img:hover{/** this css is for hover effect for tthe image in footer part**/
   opacity: 0.7;
 }
-footer p{
+footer p{/**this css styles the text that is in the footer part**/
   margin-top: 11%;
 
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px){/**this css is for making the webpages responsive**/
   .navbar ul{display: flex;
   flex-direction: column;}
   .joker{
@@ -113,7 +116,7 @@ footer p{
   }
 
   footer{
-    display: flex;
+    display: flex;/**this css makes the footer part responsive**/
     flex-direction: column;
   }
 

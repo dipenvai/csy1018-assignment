@@ -6,7 +6,7 @@ legend{
 }
 form{
   margin-top: 3%;
-  background-color: grey;
+  background-color: #cccccc;
   text-align: center;
 }
 input[type=text]{
@@ -28,22 +28,11 @@ textarea{
   font-size: 1.5em;
 }
 input[type=submit]{
-  background-color: brown;
+  background-color:white;
   border-radius: 8px 8px 8px 8px;
   width: 12%;
   margin-left: 48.25%;
-}
-input[type=text]:hover{
-  border-bottom-color: blue;
-}
-input[type=e-mail]:hover{
-  border-bottom-color: blue;
-}
-textarea:hover{
-    border-bottom-color: blue;
-}
-input[type=submit]:hover{
-    background-color: blue;
+  margin-bottom: 3%;
 }
 @media only screen and (max-width: 600px){
   input[type=submit]{width: 14%;
