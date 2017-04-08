@@ -31,5 +31,9 @@ section img:hover{
   }
   section img:hover{
     transform: rotate(360deg);
+
+  }
+  section img{
+    margin-left: 50px;
   }
 }
