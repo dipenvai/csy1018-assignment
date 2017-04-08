@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 *{/**this is css for the whole body**/
   margin: 0;
   padding: 0;
@@ -10,27 +11,24 @@
   background-repeat: no-repeat;
   position: relative;
   height: 450px;
-
 }
 
 header h1{/**this is the css which gives text-align,color,font-family,font-size and padding for the heading,h1 in the header part**/
   text-align: left;
   color: black;
-  font-family: cursive;
   font-style: italic;
-  padding-top: 1%;
+  padding-top: 2%;
   padding-right: 2%;
-  font-size: 4em;
-
-
+  font-size: 3em;
+  font-family: 'Lobster', cursive;
 }
 header p{/**this is the css that gives same style to the small paragraph in the header part**/
   text-align: left;
   color: black;
-  font-size: 3em;
+  font-size: 2em;
   font-style: italic;
   padding-right: 2%;
-  font-family: cursive;
+  font-family: 'Lobster', cursive;
 
 }
 .navbar{/**this is the css for the whole  navigation bar**/
@@ -56,15 +54,6 @@ header p{/**this is the css that gives same style to the small paragraph in the 
   background-color: blue;
   border-bottom: 5px solid yellow;
 }
-
-.ok{/**this css is for the parallex effect which gives styles like background-size,attachment, height to the background- image**/
-  background-image: url("../images/nami.jpg");
-  height: 300px;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: no-repeat;
-}
 .joker{/**this is the css that gives background-color,font-size,display-properties and flex properties to div "joker"**/
 /*  height: 400px;*/
   background-color:  #cccccc;
@@ -74,7 +63,6 @@ header p{/**this is the css that gives same style to the small paragraph in the 
 }
 .intro{/**this css gives padding and width to text that are written in the intro part**/
   padding: 10%;
-
   width: 57%;
 }
 .intro h2{/**this css gives styles like text-align,text-shadow,color padding and font-size to the heading,h2  and text written in div "intro"**/
@@ -114,12 +102,13 @@ footer p{/**this css styles the text that is in the footer part**/
     flex-direction: column;
     padding-left: 18px;
   }
-
+ .purna img{
+   padding-right: 18px;
+ }
   footer{
     display: flex;/**this css makes the footer part responsive**/
     flex-direction: column;
   }
 
-}
 
 }
