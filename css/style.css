@@ -88,7 +88,6 @@ header p{/**this is the css that gives same style to the small paragraph in the 
   padding: 3%;
 }
 .purna img{/**this is css which gives height and width to the image in div "purna"**/
-  height:400px;
   width:400px;
 }
 footer{/**this css gives style to the footer part**/
