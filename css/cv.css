@@ -24,7 +24,7 @@ article{/**this is the css that gives styles like background-color,text-align,te
   font-weight: bold;
   text-align: center;
 }
-.contain {
+.contain {/**this css is for the background divs in skills like HTML, CSS, MS EXCEL and gives backgrond-color, width and border-radius to that div **/
   width: 100%;
   background-color: black;
   border-radius:  7px;

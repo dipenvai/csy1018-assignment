@@ -15,7 +15,7 @@ input[type=text]{
   width: 60%;
   font-size: 1.5em;
 }
-input[type=e-mail]{
+input[type=email]{
   border: none;
   border-bottom: 3px solid black;
   width: 60%;
@@ -34,7 +34,7 @@ input[type=submit]{
   margin-left: 48.25%;
   margin-bottom: 3%;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px){/**this css is for making the contact page responsive**/
   input[type=submit]{width: 14%;
 
   }

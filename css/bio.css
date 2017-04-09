@@ -1,8 +1,7 @@
-section{
+section{/**this is css for the sction part of biopage**/
     background-color: #cccccc;
   }
-section img{
-  height: 330px;
+section img{/** this gives styles like width, border-radius to the image so that it appears in circular form.This css gives top and leftt margin to image and transition duration so that the image shows the hover effect for defined duration.**/
   width: 330px;
   margin-left: 38%;
   margin-top: 2%;
@@ -10,22 +9,19 @@ section img{
   transition-duration: 2s;
 
 }
-section img:hover{
+section img:hover{/**this css styles the hover eect of image in section part**/
   transform: scale(1.15);
 }
-.some {
+.some {/**this is css that gives top margin, text-align to the heading of the div some and aslo gives baground-color to the div **/
   margin-top: 2%;
   text-align: center;
   background-color: #ebebe0;
   padding: 3%;
 }
-.some h1{
-    text-align: center;
-}
-.some p{
+.some p{/**this css gives top margin to the paragraph in div some**/
   margin-top: 2%;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px){/**this css are for making the section of my bio page responsive**/
   section img{
     transition-duration: 2s;
   }

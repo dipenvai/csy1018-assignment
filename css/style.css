@@ -102,10 +102,10 @@ footer p{/**this css styles the text that is in the footer part**/
     flex-direction: column;
     padding-left: 18px;
   }
- .purna img{
+  .purna img{
    padding-right: 18px;
  }
-  footer{
+ footer{
     display: flex;/**this css makes the footer part responsive**/
     flex-direction: column;
   }
